@@ -32,7 +32,7 @@ class Memozation
 			{ return(res= 1); } 
 			
 
-			if(Arrays.asList(memo).contains(n))
+			if(Arrays.asList(memo).contains(n)) // this statement never works so no memoization happens in this program
 			{ 		
 				return memo[n]; 	
 			}
